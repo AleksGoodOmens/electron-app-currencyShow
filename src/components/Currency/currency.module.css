@@ -3,17 +3,47 @@
 	max-width: fit-content;
 	background-color: var(--accent);
 	padding: 1rem;
-	margin-top: 2rem;
+	margin-top: 1rem;
 	border-radius: 8px;
 	box-shadow: 0px 2px 4px var(--primary);
 }
 .name {
-	margin-left: 1rem;
 	font-weight: 900;
+	margin-bottom: 5px;
 }
 
 .rate {
-	margin-left: 3rem;
 	font-weight: 700;
 	text-decoration: underline;
+	margin-bottom: 5px;
+}
+
+.flags {
+	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 200px;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.flags img {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.box {
+background-color: var(--primary-dark);
+padding: 1rem;
+border-radius: 8px;
+text-align: center;
+}
+
+.title {
+	font-size: 1rem;
+	text-transform: capitalize;
+}
+.heading {
+	margin-top: 0;
 }

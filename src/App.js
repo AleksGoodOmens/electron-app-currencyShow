@@ -25,7 +25,7 @@ function App() {
 		<div className="wrapper">
 			<Header />
 			<main>
-				<h1>Приветствую Вас!</h1>
+				<h1 className="title">Приветствую Вас!</h1>
 				<DropDown
 					setCurrency={setCurrency}
 					setTitle={setTitle}

@@ -13,7 +13,7 @@ button {
 }
 
 button.active ul {
-	height: 400px;
+	height: auto;
 	opacity: 1;
 	transition: all 0.4s;
 }
@@ -24,7 +24,7 @@ ul {
 	overflow-y: scroll;
 	display: grid;
 	height: 0;
-	max-height: 200px;
+	max-height: 400px;
 	transition: height 0.5s;
 	background-color: var(--primary-dark);
 	color: var(--secondary);

@@ -66,11 +66,7 @@ function useGetData() {
 	};
 
 	const _transformCountry = (results) => {
-		const data = {};
-		for (let item in results) {
-			data[results[item]] = item;
-		}
-		return data;
+		return results;
 	};
 
 	return {
