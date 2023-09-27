@@ -1,0 +1,75 @@
+button {
+	background-color: var(--accent);
+	color: var(--primary);
+	text-transform: capitalize;
+	font-weight: 700;
+	border: none;
+	border-radius: 8px;
+	font-size: 1.5rem;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+button.active ul {
+	height: 400px;
+	opacity: 1;
+	transition: all 0.4s;
+}
+ul {
+	position: absolute;
+	top: 2rem;
+	left: 0;
+	overflow-y: scroll;
+	display: grid;
+	height: 0;
+	max-height: 200px;
+	transition: height 0.5s;
+	background-color: var(--primary-dark);
+	color: var(--secondary);
+	text-align: start;
+	opacity: 0;
+	padding: 0;
+}
+
+/* width */
+ul::-webkit-scrollbar {
+	width: 5px;
+}
+/* button */
+ul::-webkit-scrollbar-button {
+	background: var(--accent); 
+	height: 2px;
+}
+/* Handle */
+ul::-webkit-scrollbar-thumb {
+	background: var(--accent); 
+}
+/* Handle on hover */
+ul::-webkit-scrollbar-thumb:hover {
+	background: var(--secondary-light); 
+}
+/* Track */
+ul::-webkit-scrollbar-track {
+	background: transparent; 
+}
+/* The track NOT covered by the handle.
+::-webkit-scrollbar-track-piece {
+	background: #000; 
+}
+/* Corner */
+ul::-webkit-scrollbar-corner {
+	background: var(--primary-dark); 
+}
+
+
+li {
+	font-size: 1rem;
+	padding: 0.4rem 0 0.4rem 1rem;
+
+}
+
+li:hover {
+	background-color: var(--accent);
+}

@@ -1,0 +1,21 @@
+.link {
+	color: var(--primary-dark);
+	
+}
+
+.email {
+	margin-left: auto;
+	margin-right: 2rem;
+
+}
+.footer {
+	margin: 0 -1rem;
+	padding: 1rem;
+	display: flex;
+	font-weight: 900;
+	background-color: var(--accent);
+
+}
+.year {
+		color:var(--secondary-light);
+}
