@@ -36,7 +36,7 @@ function useGetData() {
 	};
 
 	const getCountry = async () => {
-		const newData = await fetch('/currencyDB.json');
+		const newData = await fetch('currencyDB.json');
 
 		try {
 			if (newData.ok) {
