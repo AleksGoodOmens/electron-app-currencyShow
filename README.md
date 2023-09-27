@@ -6,4 +6,6 @@
   <li>npm run electron:serve  ## developer mode</li>
 </ol>
 
+<div>for windows only</div>
+
 <h2>Thanks! Please, look other my projects</h2>
