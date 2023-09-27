@@ -36,9 +36,7 @@ function useGetData() {
 	};
 
 	const getCountry = async () => {
-		const newData = await fetch(
-			'https://cors-anywhere.herokuapp.com/http://country.io/currency.json'
-		);
+		const newData = await fetch('/currencyDB.json');
 
 		try {
 			if (newData.ok) {

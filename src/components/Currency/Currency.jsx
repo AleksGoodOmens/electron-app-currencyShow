@@ -17,7 +17,7 @@ function Currency({ name, rate, title }) {
 	return (
 		<div className={styles.currency}>
 			<h2>{title}</h2>
-			{Object.keys(country).length > 0 && (
+			{Object.keys(country).length > 0 && country[name] && (
 				<img
 					src={`https://flagcdn.com/16x12/${country[name].toLowerCase()}.png`}
 					srcSet={`
